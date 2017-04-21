@@ -34,7 +34,7 @@ var userbytwo = 0;
 
 app.get('/', function(req, res){
   userCount = userCount + 1;
-  userbytwo = userbytwo + 1;
+  userbytwo = userbytwo + 2;
   /* add statement to increment userbytwo by two here */
   res.render('index', {userCount: userCount}); /* update this line to also pass userbytwo */
   res.render('index', {userbytwo: userbytwo}); /* update this line to also pass userbytwo */
